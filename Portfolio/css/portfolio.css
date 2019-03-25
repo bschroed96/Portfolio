@@ -1,0 +1,255 @@
+/* All CSS styles go here */
+
+html,body {
+	height: 100%;
+	width: 100%;
+	background-color: pink;
+	/*define parent to give the child .cover reference*/
+}
+.headline {
+
+	width:100%;
+	height: 350px;
+	background-color: black;
+	position: absolute;
+	overflow: hidden;
+}
+
+.ben {
+	width: 12.5%;
+	height: 350px;
+	background: white;
+	background-color: black;
+	position: relative;
+	float:left;
+	display: block;
+
+}
+
+.schroeder {
+	width: 12.5%;
+	height: 350px;
+	background: white;
+	background-color: black;
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+
+.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 75%;
+  z-index: 2;
+  top: -33%;
+  float: left;
+  display: inline-block;
+}
+
+.name {
+	z-index: 2;
+	background: white;
+	font-size: 78px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	line-height: .45;
+	width: 700px;
+	height: 97px;
+	text-align: center;
+	padding-top: 27px;
+	opacity: 1;
+}
+
+.graphic {
+	background-color: white;
+	font-size: 24px;
+	background: white;
+	line-height: .5;
+}
+
+.opacity {
+	opacity: .75;
+}
+
+.line {
+	position: absolute;
+
+	width: 1200px;
+	height: 1px;
+	background-color: white;
+	z-index: 4;
+	top: 420px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: .5;
+
+}
+
+.holder {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	height: 2000px;
+	background-color: black;
+}
+
+.box1 {
+	width: 30%;
+	height: 400px;
+	background-color: black;
+	top: 350px;
+	position: relative;
+	float: left;
+	transition: .5s;
+
+}
+
+
+
+.box2 {
+	width: 30%;
+	height: 400px;
+	background-color: black;
+	top: 350px;
+	position: relative;
+	float: left;
+}
+
+.box3 {
+	width: 30%;
+	height: 400px;
+	background-color: black;
+	top: 350px;
+	position: relative;
+	float: left;
+}
+
+.box4 {
+	width: 30%;
+	height: 400px;
+	background-color: black;
+	top: 350px;
+	position: relative;
+	float: left;
+	transition: .5s;
+
+}
+
+
+
+.box5 {
+	width: 30%;
+	height: 400px;
+	background-color: black;
+	top: 350px;
+	position: relative;
+	float: left;
+}
+
+.box6 {
+	width: 30%;
+	height: 400px;
+	background-color: black;
+	top: 350px;
+	position: relative;
+	float: left;
+}
+
+.margin {
+	margin-left: 1.7%;
+	margin-right: 1.5%;
+	margin-bottom: 150px;
+}
+
+.resize {
+	width: 400px;
+	height: auto;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.resizeTOC{
+	width: 300px;
+	height: auto;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.textopacity {
+	opacity: 1;
+	color: white;
+	text-align: center;	
+	position: relative;
+	top: -65%;
+	animation: animate .5s forwards;
+
+}
+
+p {
+	color: white;
+	text-align: center;	
+	position: relative;
+	top: -60%;
+	opacity: 0;
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 36px;
+	text-transform: uppercase;
+	transition: .5s;
+}
+
+.box1:hover #b1 {
+	opacity: 1;
+	transition: .5s;
+}
+
+.box2:hover #b2 {
+	opacity: 1;
+	transition: .5s;
+}
+
+.box3:hover #b3 {
+	opacity: 1;
+	transition: .5s;
+}
+
+.box4:hover #b4 {
+	opacity: 1;
+	transition: .5s;
+}
+
+.box5:hover #b5 {
+	opacity: 1;
+	transition: .5s;
+}
+
+.box6:hover #b6 {
+	opacity: 1;
+	transition: .5s;
+}
+
+
+.contact {
+	
+
+}
+
+
+@keyframes animate {
+   0% { opacity: 0}
+   100% { opacity: 1}
+}
